@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main - Entry point
+/**
+ * main - Entry point
  *
  * description: Prints the size of various types on the computer it is compiled and run on   
  *
