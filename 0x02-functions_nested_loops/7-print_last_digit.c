@@ -6,7 +6,7 @@
  *
  * return: Always 1
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int 1, p;
 	1 = n % 10;
