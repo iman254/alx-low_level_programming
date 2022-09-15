@@ -12,7 +12,7 @@ int main(void)
 	long fn = f1;
 	for (i = 0; i < 50; i++)
 	{
-		printf("%d", fn);
+		printf("%ld", fn);
 		if (i < 49)
 			printf(", ");
 		fn = f1 + f2;
