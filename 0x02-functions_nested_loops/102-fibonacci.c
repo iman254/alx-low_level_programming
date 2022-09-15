@@ -6,18 +6,22 @@
  */
 int main(void)
 {
-	int i;
-	long f1;
-	long f2;
-	long fn = f1;
-	for (i = 0; i < 50; i++)
+	int counter = 2;
+	long int a = 1;
+	long int b = a + 1;
+	long int c = a + b;
+	printf("%ld, %ld, ", a, b);
+	while (counter < 50)
 	{
-		printf("%ld", fn);
-		if (i < 49)
+		printf("%ld", c);
+		counter++;
+		a = b;
+		b = c;
+		c = a + b;
+		if (counter < 50)
+		{
 			printf(", ");
-		fn = f1 + f2;
-		f1 = f2;
-		f2 = fn;
+		}
 	}
 	printf("\n");
 	return (0);
