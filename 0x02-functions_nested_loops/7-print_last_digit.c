@@ -4,17 +4,16 @@
  *
  * @n: integer being checked.
  *
- * return: Always 1
+ * return: the last number of n.
  */
 int print_last_digit(int n)
 {
-	int 1, p;
-	1 = n % 10;
-	if (1 < 0)
-		1 = -1;
-	p = '0' + 1;
-	_putchar(p);
-	return (1);
+	int last;
+	if (n < 0)
+		n = n * -1;
+	last = n % 10;
+	_putchar(last + '0');
+	return (last);
 }
 
 
