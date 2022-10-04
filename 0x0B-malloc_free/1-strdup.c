@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code for ALX School students.
@@ -19,10 +20,3 @@ int main(void)
 	free(s);
 	return (0);
 }
-julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strdup.c -o s
-
-julien@ubuntu:~/0x0a. malloc, free$ ./s 
-
-ALX SE
-
-julien@ubuntu:~/0x0a. malloc, free$
