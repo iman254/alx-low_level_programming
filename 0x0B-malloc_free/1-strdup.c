@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
- *
  * _strdup - Duplicate a string using malloc
  *
  * @str: string to duplicate
@@ -15,6 +14,7 @@ char *_strdup(char *str)
 {
 	char *a;
 	int i, c;
+
 	if (str == NULL)
 		return (NULL);
 
