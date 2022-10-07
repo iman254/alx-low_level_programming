@@ -1,7 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <limits.h>
-
 /**
  * malloc_checked - allocates memory using malloc, exit(98) if it fails
  * @b: size of the memory block to be allocated
