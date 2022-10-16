@@ -20,11 +20,11 @@ void _printchar(va_list list)
 void _printstr(va_list list)
 {
 	char *s;
-	s = va_arg(list, char *);
 
+	s = va_arg(list, char *);
 	if (s == NULL)
 		s = "(nil)";
-		printf("%s", s);
+	printf("%s", s);
 }
 
 /**
@@ -51,7 +51,6 @@ void _printint(va_list list)
  * print_all - print anything passed if char, int, float, or string.
  * @format: string of formats to use and print
  */
-
 
 void print_all(const char * const format, ...)
 {
