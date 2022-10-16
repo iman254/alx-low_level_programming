@@ -11,6 +11,10 @@ void _printfloat(va_list list);
 void _printint(va_list list);
 
 typedef struct checker
+
+/**
+ * typedef struct checker - char and function pointer
+ */
 {
 	char *type;
 	void (*f)();
