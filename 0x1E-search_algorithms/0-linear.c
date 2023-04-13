@@ -1,5 +1,4 @@
 #include "search_algos.h"
-
 /**
 * linear_search - a function meant to linear search
 * @array: a pointer to the first element
